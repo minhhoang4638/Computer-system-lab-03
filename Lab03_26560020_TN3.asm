@@ -34,7 +34,6 @@ main:
     add  $a1, $v0, $zero
     jal  show
 
-    # Count Class A passing scores
     la   $a0, classA
     addi $a1, $zero, 10
     addi $a2, $zero, 50
@@ -44,7 +43,6 @@ main:
     add  $a1, $v0, $zero
     jal  show
 
-    # Count Class B passing scores
     la   $a0, classB
     addi $a1, $zero, 8
     addi $a2, $zero, 50
@@ -56,10 +54,6 @@ main:
 
     li   $v0, 10
     syscall
-
-
-# sum_array(addr = $a0, n = $a1)
-# returns sum in $v0
 
 sum_array:
     add  $v0, $zero, $zero
@@ -80,10 +74,6 @@ sum_loop:
 sum_end:
     jr   $ra
 
-
-# show(msg = $a0, value = $a1)
-# prints msg, value and newline
-
 show:
     li   $v0, 4
     syscall
@@ -97,10 +87,6 @@ show:
     syscall
 
     jr   $ra
-
-
-# count_pass(addr = $a0, n = $a1, mark = $a2)
-# returns count of scores >= mark in $v0
 
 count_pass:
     addi $v0, $zero, 0
