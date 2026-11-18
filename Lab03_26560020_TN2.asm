@@ -1,5 +1,5 @@
 # Listing 3 - clamp(x, lo, hi)
-#Name : Nguy?n Minh Ho�ng
+#Name : Nguyễn Minh Hoàng
 #student ID : 26560020.
 
 text
