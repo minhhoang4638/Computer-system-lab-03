@@ -1,7 +1,7 @@
 # Listing 6 - a procedure that breaks the convention
 # TN4 - Listing 6 fixed with Listing 7 (Fix B: saving $s0 on the stack)
-#Student name: Nguy?n Minh Ho�ng
-#Student ID: 26560020.
+#Student name: Nguyễn Minh Hoàng
+#Student ID: 26560020
 .text
 .globl main
 main:
