@@ -1,6 +1,6 @@
 # Listing 1 - one procedure, called from two places
-#Student name: Nguy?n Minh Ho�ng
-#Student ID: 26560020.
+#Student name: Nguyễn Minh Hoàng
+#Student ID: 26560020
 .data
 title:    .asciiz "SCORE REPORT\n"
 endMsg:   .asciiz "END\n"
